@@ -1,0 +1,139 @@
+body{
+  margin:0;
+  font-family:Segoe UI;
+  background:linear-gradient(135deg,#0f172a,#1e293b);
+}
+
+.container{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.card{
+  background:white;
+  padding:40px;
+  width:350px;
+  border-radius:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.3);
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.card h1{
+  text-align:center;
+  color:#0f172a;
+}
+
+.card input,
+.card select{
+  padding:12px;
+  border-radius:10px;
+  border:1px solid #ccc;
+}
+
+.card button{
+  padding:12px;
+  border:none;
+  border-radius:10px;
+  background:#2563eb;
+  color:white;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.card button:hover{
+  background:#1d4ed8;
+}
+
+.dashboard{
+  color:white;
+  padding:40px;
+}
+
+.dashboard-container{
+  display:flex;
+  min-height:100vh;
+}
+
+.sidebar{
+  width:250px;
+  background:#0f172a;
+  color:white;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.sidebar button{
+  padding:12px;
+  border:none;
+  border-radius:10px;
+  background:#1e293b;
+  color:white;
+  cursor:pointer;
+}
+
+.sidebar button:hover{
+  background:#2563eb;
+}
+
+.logout{
+  margin-top:auto;
+  background:#dc2626 !important;
+}
+
+.content{
+  flex:1;
+  padding:30px;
+  background:#f1f5f9;
+}
+
+.card-dashboard{
+  background:white;
+  padding:20px;
+  border-radius:15px;
+  margin-top:20px;
+  box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+.admin-container{
+  min-height:100vh;
+  background:#f1f5f9;
+  padding:30px;
+}
+
+.admin-container h1{
+  color:#0f172a;
+  margin-bottom:20px;
+}
+
+.table-admin{
+  width:100%;
+  border-collapse:collapse;
+  background:white;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+.table-admin th{
+  background:#2563eb;
+  color:white;
+  padding:12px;
+}
+
+.table-admin td{
+  padding:12px;
+  border-bottom:1px solid #ddd;
+}
+
+.btn-hapus{
+  background:#dc2626;
+  color:white;
+  border:none;
+  padding:8px 12px;
+  border-radius:8px;
+  cursor:pointer;
+}
