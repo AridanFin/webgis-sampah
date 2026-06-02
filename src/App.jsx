@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Warga from './pages/Warga'
-import Transporter from './pages/Transporter'
-import Admin from './pages/Admin'
+import Warga from "./pages/warga";
+import Transporter from "./pages/transporter";
+import Admin from "./pages/admin";
 
 function App() {
 
